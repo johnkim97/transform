@@ -7,22 +7,18 @@
   background: white;
 }
 div.box2 {
-    height: 100px;
-    width: 100px;
     position: absolute;
-    left: 120px;
-    background: blue;
+    left: 220px;
+    top: 100px;
     -webkit-transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
     -o-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
   }
 div.box1 {
-  height: 100px;
-  width: 100px;
   position: absolute;
-  left: 80px;
-  background: red;
+  left: 40px;
+  top: 100px;
 }
 div.box1:hover + div.box2 {
     -webkit-transform: rotate(360deg);
@@ -31,6 +27,10 @@ div.box1:hover + div.box2 {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
     left: calc(100% - 102px);
-    background: yellow;
   }
+img {
+  height: 200px;
+  width: 200px;
+}
+
 

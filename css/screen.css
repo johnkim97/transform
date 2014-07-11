@@ -67,8 +67,6 @@ div.box2 {
   left: 220px;
   top: 100px;
   -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
 }
 
@@ -80,9 +78,6 @@ div.box1 {
 
 div.box1:hover + div.box2 {
   -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
   transform: rotate(360deg);
   left: calc(100% - 102px);
 }
